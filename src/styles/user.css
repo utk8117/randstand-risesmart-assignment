@@ -1,0 +1,52 @@
+.user-list-container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.user-wrapper {
+  display: flex;
+  border: 1px black solid;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: rgb(238, 49, 49);
+}
+.viewed-user-wrapper {
+  display: flex;
+  border: 1px black solid;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: lightseagreen;
+}
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.user-album-count {
+  right: 0;
+  position: relative;
+  background-color: yellow;
+  height: fit-content;
+  padding: 5px;
+  margin: -8px -9px -5px -5px;
+  border-radius: 100%;
+  text-decoration: none;
+}
+.user-card {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.user-card-link {
+  text-decoration: none;
+  color: black;
+}

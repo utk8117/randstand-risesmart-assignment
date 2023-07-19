@@ -1,0 +1,29 @@
+{
+  "name": "album-cards",
+  "version": "1.0.0",
+  "description": "An assignment for Randstand Risesmart first round",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/utk8117/randstand-risesmart-assignment.git"
+  },
+  "author": "Utkarsha Mhatre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utk8117/randstand-risesmart-assignment/issues"
+  },
+  "homepage": "https://github.com/utk8117/randstand-risesmart-assignment#readme",
+  "dependencies": {
+    "parcel": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.2"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
